@@ -1,5 +1,5 @@
 
-:heavy_exclamation_mark: UPDATE (6/15/2017): _This repository is no longer maintained_. Feel free to fork and modify as you wish.
+:heavy_exclamation_mark: UPDATE (5/21/2019): _This version is being fixed from " Error 400 " coming from ajax request. feel free to use it_. 
 
 # WP Advanced Search
 #### A PHP framework for building advanced search forms in WordPress
