@@ -39,7 +39,7 @@ spl_autoload_register(function ($class) {
  */
 function wpas_scripts() {
     wp_enqueue_script( 'wpas-scripts', get_wpas_uri() . '/js/scripts.js', array('jquery'), '1', false );
-    wp_enqueue_script( 'wpas-admin-ajax', admin_url( 'admin-ajax.php' ), array(), '1', false );
+    //wp_enqueue_script( 'wpas-admin-ajax', admin_url( 'admin-ajax.php' ), array(), '1', false );
     wp_localize_script( 'wpas-admin-ajax', 'WPAS_Ajax', array( 'ajaxurl' => admin_url( 'admin-ajax.php' ) ) );
 }
 add_action('wp_enqueue_scripts', 'wpas_scripts');

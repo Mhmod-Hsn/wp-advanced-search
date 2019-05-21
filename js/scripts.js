@@ -153,7 +153,7 @@ jQuery(document).ready(function($) {
         ajaxLoader.showImage();
         jQuery.ajax({
             type: 'POST',
-            url: WPAS_Ajax.ajaxurl,
+            url: "/wp-admin/admin-ajax.php",
             data: {
                 action: 'wpas_ajax_load',
                 page: page,
